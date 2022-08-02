@@ -1,0 +1,19 @@
+graph arbre {
+	0[label=Saturne];
+	1[label=Mars];
+	0 -- 1;
+	6[label=Terre];
+	0 -- 6;
+	2[label=Jupiter];
+	1 -- 2;
+	3[label=Neptune];
+	1 -- 3;
+	7[label=Uranus];
+	6 -- 7;
+	4[label=Mercure];
+	3 -- 4;
+	5[label=Pluton];
+	3 -- 5;
+	8[label=Vénus];
+	7 -- 8;
+}

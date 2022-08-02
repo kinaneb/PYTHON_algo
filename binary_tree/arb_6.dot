@@ -1,0 +1,7 @@
+graph arbre {
+	0[label=a];
+	1[label=b];
+	0 -- 1;
+	2[label=c];
+	0 -- 2;
+}

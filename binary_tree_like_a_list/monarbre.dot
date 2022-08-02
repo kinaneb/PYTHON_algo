@@ -1,0 +1,31 @@
+graph arbre {
+	0[label=5];
+	2[label=3];
+	0 -- 2;
+	1[label=7];
+	0 -- 1;
+	4[label=2];
+	2 -- 4;
+	3[label=4];
+	2 -- 3;
+	6[label=6];
+	1 -- 6;
+	5[label=8];
+	1 -- 5;
+	8[shape="plaintext", label=""];
+	4 -- 8;
+	7[shape="plaintext", label=""];
+	4 -- 7;
+	10[shape="plaintext", label=""];
+	3 -- 10;
+	9[shape="plaintext", label=""];
+	3 -- 9;
+	12[shape="plaintext", label=""];
+	6 -- 12;
+	11[shape="plaintext", label=""];
+	6 -- 11;
+	14[shape="plaintext", label=""];
+	5 -- 14;
+	13[shape="plaintext", label=""];
+	5 -- 13;
+}
